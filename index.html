@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Saransh Suri — AI/ML Researcher</title>
+  <title>Saransh Suri — Computer Vision & Generative AI Researcher</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Syne:wght@400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
   <style>
@@ -858,6 +858,15 @@
       .contact-inner { grid-template-columns:1fr; padding:4rem 1.5rem; gap:3rem; }
       footer { flex-direction:column; gap:0.5rem; padding:1.5rem; text-align:center; }
     }
+
+    @media(max-width:720px){
+      .nav-links { display:none; }
+      .hero-name { font-size:clamp(3.6rem,18vw,5.5rem); }
+      .hero-tagline br { display:none; }
+    }
+    @media(pointer:coarse){
+      .cursor,.cursor-ring { display:none; }
+    }
   </style>
 </head>
 <body>
@@ -884,7 +893,7 @@
   <div class="blob blob-2"></div>
 
   <div class="hero-left">
-    <div class="hero-eyebrow">AI / ML Researcher &amp; Engineer</div>
+    <div class="hero-eyebrow">Computer Vision · Generative AI · 3D &amp; Robotics</div>
 
     <div class="hero-name">
       Saransh<br>
@@ -892,13 +901,13 @@
     </div>
 
     <p class="hero-tagline">
-      Building at the intersection of computer vision,<br>
-      generative models &amp; robotics.
+      Researching diffusion and image generation,<br>
+      3D perception &amp; robotics.
     </p>
 
     <div class="hero-links">
       <a href="mailto:saranshsuri10@gmail.com" class="btn btn-gold">Get in touch</a>
-      <a href="https://github.com/CrMessiSuriJr" target="_blank" class="btn btn-outline">GitHub →</a>
+      <a href="https://github.com/saranshsuri" target="_blank" class="btn btn-outline">GitHub →</a>
       <a href="https://www.linkedin.com/in/saransh-suri-20094b1ba" target="_blank" class="btn btn-outline">LinkedIn →</a>
     </div>
   </div>
@@ -934,13 +943,28 @@
 
     <div class="exp-item reveal">
       <div>
+        <div class="exp-date">Sep 2026 — Present</div>
+        <div class="exp-org">Cyran AI</div>
+      </div>
+      <div class="exp-content">
+        <h3>AI Intern</h3>
+        <ul>
+          <li>Building applied AI solutions and working on modern machine-learning systems in an industry setting.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="exp-item reveal">
+      <div>
         <div class="exp-date">Jan 2026 — Present</div>
-        <div class="exp-org">University of Maryland<br>College Park</div>
+        <div class="exp-org">University of Maryland<br>College Park<br><small style="opacity:0.6">Abhinav Shrivastava Lab</small></div>
       </div>
       <div class="exp-content">
         <h3>Research Intern</h3>
         <ul>
-          <li>Optimizing and developing computer vision models for robotics applications — focused on embodied perception and decision-making.</li>
+          <li>Working with Prof. Abhinav Shrivastava's lab on computer vision and generative modeling research.</li>
+          <li>Investigating diffusion / flow-based image generation, including training dynamics, sampling behavior, and model evaluation.</li>
+          <li>Exploring 3D perception and robotics, with emphasis on point-cloud learning, scene understanding, and embodied perception.</li>
         </ul>
       </div>
     </div>
@@ -953,23 +977,22 @@
       <div class="exp-content">
         <h3>Undergraduate Intern</h3>
         <ul>
-          <li>Developed and deployed a production-level Text-to-SQL agent used by dozens of Accounts Receivable managers globally.</li>
-          <li>Engineered a multi-stage pipeline: table classifier → column retriever → rule selection → SQL generation → SQL corrector.</li>
-          <li>Benchmarked LSTM, Bi-LSTM, RoBERTa, and ALBERT; identified ALBERT-base as optimal classifier.</li>
+          <li>Developed Agentic AI systems for enterprise Text-to-SQL applications.</li>
+          <li>Built a multi-stage pipeline for table classification, column retrieval, rule selection, SQL generation, and correction.</li>
+          <li>Worked with large language models, autonomous agents, and database reasoning.</li>
         </ul>
       </div>
     </div>
 
     <div class="exp-item reveal">
       <div>
-        <div class="exp-date">Aug 2025</div>
+        <div class="exp-date">Aug 2025 — Sep 2025</div>
         <div class="exp-org">Amazon</div>
       </div>
       <div class="exp-content">
         <h3>Trainee — ML Summer School</h3>
         <ul>
-          <li>Selected as 1 of 3,000 trainees from ~150,000 applicants (top 2%).</li>
-          <li>Intensive training in Reinforcement Learning, Generative AI, LLMs, Sequential Learning &amp; Causal Inference.</li>
+          <li>Completed intensive training across modern machine learning, deep learning, generative AI, and related topics.</li>
         </ul>
       </div>
     </div>
@@ -977,14 +1000,14 @@
     <div class="exp-item reveal">
       <div>
         <div class="exp-date">May 2024 — Jul 2024</div>
-        <div class="exp-org">IAB Lab, IIT Jodhpur<br><small style="opacity:0.6">Mentors: Dr. Vatsa, Dr. Singh</small></div>
+        <div class="exp-org">IAB Lab, IIT Jodhpur<br><small style="opacity:0.6">Mentors: Dr. Mayank Vatsa &amp; Dr. Richa Singh</small></div>
       </div>
       <div class="exp-content">
         <h3>Research Intern</h3>
         <ul>
-          <li>Investigated GANs and diffusion models for augmenting face recognition training datasets.</li>
-          <li>Developed an adversarial perturbation method using an ensemble of FR models to synthesize hard training samples.</li>
-          <li>Optimized the real-to-synthetic data mixture ratio, improving model accuracy and generalization.</li>
+          <li>Conducted research in computer vision, generative AI, and deep learning for face recognition.</li>
+          <li>Developed identity-preserving hard-sample generation methods using generative models and face-recognition feedback.</li>
+          <li>Studied adversarial augmentation and synthetic data generation to improve face-recognition robustness.</li>
         </ul>
       </div>
     </div>
@@ -1003,28 +1026,28 @@
     </div>
 
     <div class="research-featured reveal">
-      <span class="r-badge b-pub">Publication</span>
-      <h3>Adaptive Adversarial Augmentation for Controllable Face Synthesis</h3>
-      <p>Investigates adversarial perturbations and generative models to create controllable, high-fidelity synthetic faces for improving face recognition robustness. Proposes a novel ensemble-based hard sample generation pipeline evaluated with FID, KID, SSIM, LPIPS, and embedding distance metrics on the CASIA face dataset.</p>
-      <div class="authors">S. Suri · S. Agarwal · M. Vatsa · R. Singh</div>
-      <div class="status-pill">Under Submission</div>
+      <span class="r-badge b-int">Current Research · UMD</span>
+      <h3>Generative Vision: Diffusion, Flow Matching &amp; Image Generation</h3>
+      <p>Working in Prof. Abhinav Shrivastava's lab on generative computer vision, with a focus on diffusion and flow-based models for image generation. My work studies how model parameterization, training objectives, sampling trajectories, and representation choices affect generation quality, stability, and efficiency.</p>
+      <div class="authors">University of Maryland, College Park · Abhinav Shrivastava Lab</div>
+      <div class="status-pill">Ongoing</div>
     </div>
 
     <div class="research-cards">
       <div class="r-card reveal">
-        <span class="r-badge b-int">Interest</span>
-        <h3>Generative Models &amp; Diffusion</h3>
-        <p>Exploring diffusion models for synthetic data generation — with focus on training stability, mode coverage, and application to data-scarce medical imaging (CT/MRI).</p>
+        <span class="r-badge b-int">Current</span>
+        <h3>Diffusion &amp; Flow-Based Generation</h3>
+        <p>Exploring diffusion, flow matching, alternative state parameterizations, inference dynamics, and research-grade evaluation for high-quality image generation.</p>
       </div>
       <div class="r-card reveal">
-        <span class="r-badge b-int">Interest</span>
-        <h3>3D Perception &amp; Scene Understanding</h3>
-        <p>Semantic lifting of 3D point clouds using CLIP features and MinkowskiEngine. Working on AI2THOR for embodied agent perception in indoor environments.</p>
+        <span class="r-badge b-int">Current</span>
+        <h3>3D Perception &amp; Robotics</h3>
+        <p>Working on point-cloud denoising, open-vocabulary 3D semantics, scene understanding, and perception systems for embodied agents and robotics.</p>
       </div>
       <div class="r-card reveal">
-        <span class="r-badge b-med">Interest</span>
-        <h3>Medical AI &amp; Early Detection</h3>
-        <p>Using GANs and diffusion models to address medical data scarcity. Long-term goal: robust AI systems for early disease detection from imaging.</p>
+        <span class="r-badge b-pub">Research</span>
+        <h3>Robust Face Recognition</h3>
+        <p>Identity-preserving synthetic hard-sample generation and adversarial augmentation for improving face-recognition robustness under occlusion, pose, and quality variation.</p>
       </div>
     </div>
   </div>
@@ -1043,51 +1066,56 @@
 
     <div class="projects-grid">
       <div class="proj-card reveal">
+        <span class="proj-icon">✦</span>
+        <h3>Diffusion &amp; Flow-Matching Research</h3>
+        <p>Research experiments on image generation with diffusion and flow-based models, studying objectives, sampling trajectories, diagnostics, and generative quality.</p>
+        <div class="proj-tags">
+          <span class="tag">PyTorch</span><span class="tag">Diffusion</span><span class="tag">Flow Matching</span>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <span class="proj-icon">◈</span>
+        <h3>3D Point-Cloud Learning</h3>
+        <p>Denoising and open-vocabulary semantic understanding for indoor 3D scenes, combining transformer-based point-cloud representations with vision-language features.</p>
+        <div class="proj-tags">
+          <span class="tag">3D Vision</span><span class="tag">Point Clouds</span><span class="tag">Open Vocabulary</span>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <span class="proj-icon">◎</span>
+        <h3>Adaptive Face Synthesis</h3>
+        <p>Identity-preserving hard-sample generation using face-recognition feedback to create challenging synthetic training data and improve robustness.</p>
+        <div class="proj-tags">
+          <span class="tag">Face Recognition</span><span class="tag">Generative AI</span><span class="tag">Adversarial Training</span>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
         <span class="proj-icon">🏆</span>
         <h3>Mask-Immune Face Recognition</h3>
         <p>AI model for identifying individuals regardless of mask status. Winner of Microsoft AI For Good Challenge India.</p>
         <div class="proj-tags">
-          <span class="tag">TensorFlow</span><span class="tag">OpenCV</span><span class="tag">Azure</span>
+          <span class="tag">TensorFlow</span><span class="tag">OpenCV</span><span class="tag">Computer Vision</span>
         </div>
       </div>
+
       <div class="proj-card reveal">
         <span class="proj-icon">🌿</span>
         <h3>AgriLeafNet</h3>
-        <p>Multi-disease crop leaf severity estimation. Benchmarked VGGNet, EfficientNet, ResNet; proposed modified ResNet-50 on PlantVillage.</p>
+        <p>Multi-disease crop leaf severity estimation using deep-learning models for agricultural image analysis.</p>
         <div class="proj-tags">
           <span class="tag">ResNet-50</span><span class="tag">PyTorch</span><span class="tag">Classification</span>
         </div>
       </div>
-      <div class="proj-card reveal">
-        <span class="proj-icon">🧠</span>
-        <h3>GAN Evaluation Pipeline</h3>
-        <p>Research-grade pipeline for generative model evaluation: FID, KID, SSIM, LPIPS, DISTS, Inception Score, MMD — GPU-accelerated with auto CSV outputs.</p>
-        <div class="proj-tags">
-          <span class="tag">PyTorch</span><span class="tag">CUDA</span><span class="tag">Metrics</span>
-        </div>
-      </div>
-      <div class="proj-card reveal">
-        <span class="proj-icon">🌐</span>
-        <h3>Semantic 3D Scene Understanding</h3>
-        <p>Point cloud semantic lifting using CLIP features and MinkowskiEngine on the AI2THOR dataset for embodied AI perception.</p>
-        <div class="proj-tags">
-          <span class="tag">CLIP</span><span class="tag">MinkowskiEngine</span><span class="tag">3D Vision</span>
-        </div>
-      </div>
+
       <div class="proj-card reveal">
         <span class="proj-icon">😴</span>
         <h3>Drowsiness Detection</h3>
-        <p>Real-time driver drowsiness detection via OpenCV facial landmark monitoring — built for safety-critical applications.</p>
+        <p>Real-time drowsiness detection using OpenCV-based facial analysis for safety-critical applications.</p>
         <div class="proj-tags">
-          <span class="tag">OpenCV</span><span class="tag">Real-time</span><span class="tag">Safety AI</span>
-        </div>
-      </div>
-      <div class="proj-card reveal">
-        <span class="proj-icon">🛍️</span>
-        <h3>Full-Stack E-Commerce</h3>
-        <p>Complete MERN-stack platform — React.js frontend, Node.js backend, MongoDB with full product, cart &amp; auth management.</p>
-        <div class="proj-tags">
-          <span class="tag">React</span><span class="tag">Node.js</span><span class="tag">MongoDB</span>
+          <span class="tag">OpenCV</span><span class="tag">Real-time</span><span class="tag">Vision</span>
         </div>
       </div>
     </div>
@@ -1107,31 +1135,31 @@
     <div class="skills-layout">
       <div class="skills-intro reveal">
         <h3>Technical<br><em style="font-style:italic;color:var(--gold)">Toolkit</em></h3>
-        <p style="margin-top:1rem">Hands-on across the full ML lifecycle — from architecture design and training to research-grade evaluation and production deployment.</p>
+        <p style="margin-top:1rem">Research and engineering across generative vision, 3D perception, deep learning, and applied AI systems.</p>
       </div>
       <div class="skills-grid">
         <div class="skill-group reveal">
           <h4>Languages</h4>
           <div class="pills">
-            <span class="pill">Python</span><span class="pill">C</span><span class="pill">SQL</span><span class="pill">JavaScript</span><span class="pill">HTML/CSS</span>
+            <span class="pill">Python</span><span class="pill">C/C++</span><span class="pill">SQL</span><span class="pill">JavaScript</span><span class="pill">HTML/CSS</span>
           </div>
         </div>
         <div class="skill-group reveal">
-          <h4>AI / ML</h4>
+          <h4>Generative AI &amp; Vision</h4>
           <div class="pills">
-            <span class="pill">PyTorch</span><span class="pill">TensorFlow</span><span class="pill">OpenCV</span><span class="pill">GANs</span><span class="pill">Diffusion Models</span><span class="pill">Transformers</span><span class="pill">CLIP</span><span class="pill">CUDA</span>
+            <span class="pill">PyTorch</span><span class="pill">TensorFlow</span><span class="pill">OpenCV</span><span class="pill">Diffusion Models</span><span class="pill">Flow Matching</span><span class="pill">GANs</span><span class="pill">Transformers</span><span class="pill">CLIP</span>
           </div>
         </div>
         <div class="skill-group reveal">
-          <h4>Research Skills</h4>
+          <h4>3D &amp; Robotics</h4>
           <div class="pills">
-            <span class="pill">Generative Evaluation (FID/KID/SSIM)</span><span class="pill">Embedding Learning</span><span class="pill">3D Vision</span><span class="pill">Adversarial Training</span>
+            <span class="pill">3D Vision</span><span class="pill">Point Clouds</span><span class="pill">Point Transformers</span><span class="pill">Open-Vocabulary Semantics</span><span class="pill">Embodied Perception</span><span class="pill">AI2-THOR</span>
           </div>
         </div>
         <div class="skill-group reveal">
-          <h4>Web &amp; Infrastructure</h4>
+          <h4>AI Systems &amp; Infrastructure</h4>
           <div class="pills">
-            <span class="pill">React.js</span><span class="pill">Node.js</span><span class="pill">Next.js</span><span class="pill">MongoDB</span><span class="pill">Azure</span><span class="pill">Bootstrap</span>
+            <span class="pill">LLMs</span><span class="pill">Agentic AI</span><span class="pill">Text-to-SQL</span><span class="pill">CUDA</span><span class="pill">Git</span><span class="pill">Linux</span><span class="pill">Docker</span>
           </div>
         </div>
       </div>
@@ -1151,24 +1179,25 @@
     </div>
     <div class="edu-grid">
       <div class="edu-card reveal">
-        <div class="edu-year">2022 — Present</div>
+        <div class="edu-year">2022 — 2026</div>
         <h3>Manipal University Jaipur</h3>
-        <div class="edu-degree">B.Tech — Computer Science &amp; Engineering (AI/ML)</div>
-        <div class="edu-score">9.54 <span>/ 10.0 CGPA</span></div>
+        <div class="edu-degree">B.Tech — Computer Science &amp; Engineering (Hons. AI/ML)</div>
+        <div class="edu-score">9.57 <span>/ 10.0 CGPA</span></div>
         <ul class="edu-list">
-          <li>Dean's List Award — all semesters</li>
-          <li>Joint Head of Technical Projects, IEEE CS MUJ</li>
+          <li>Dean's List Award — all 8 semesters</li>
+          <li>Joint Head of Technical Projects, IEEE Computer Society MUJ</li>
+          <li>Focused on artificial intelligence, machine learning, and computer vision</li>
         </ul>
       </div>
       <div class="edu-card reveal">
         <div class="edu-year">2007 — 2022</div>
         <h3>Bluebells School International</h3>
         <div class="edu-degree">CBSE Board — New Delhi</div>
-        <div class="edu-score">93.4% <span>Grade 12</span></div>
+        <div class="edu-score">100/100 <span>CS &amp; Chemistry</span></div>
         <ul class="edu-list">
           <li>Perfect 100 in Computer Science &amp; Chemistry (CBSE 2022)</li>
           <li>Awarded "Tech Wizard" and "Creative Innovator"</li>
-          <li>President of Eniac Tech Club (Grades 11–12)</li>
+          <li>President of ENIAC Tech Club (Grades 11–12)</li>
           <li>Robotics Head (Grade 10)</li>
         </ul>
       </div>
@@ -1187,15 +1216,15 @@
       <div class="sec-line"></div>
     </div>
     <div class="ach-grid reveal">
+      <div class="ach-item"><span class="ach-icon">⭐</span><div class="ach-text">Dean's List — Manipal University Jaipur, all 8 semesters</div></div>
       <div class="ach-item"><span class="ach-icon">🏆</span><div class="ach-text">Winner — Microsoft AI for Good Challenge India (Microsoft Edu Day)</div></div>
       <div class="ach-item"><span class="ach-icon">🏅</span><div class="ach-text">Winner — Teccon 2021 AI Challenge, NorthCap University</div></div>
-      <div class="ach-item"><span class="ach-icon">⭐</span><div class="ach-text">Dean's List — Manipal University Jaipur, all semesters</div></div>
       <div class="ach-item"><span class="ach-icon">🔬</span><div class="ach-text">Top 15 Schools — Innovation Fair Model Making, National Science Centre</div></div>
       <div class="ach-item"><span class="ach-icon">💻</span><div class="ach-text">Computer Wizard Award — Bluebells School International (2021)</div></div>
       <div class="ach-item"><span class="ach-icon">💡</span><div class="ach-text">Creativity &amp; Innovation Award — Bluebells School International (2020)</div></div>
-      <div class="ach-item"><span class="ach-icon">📡</span><div class="ach-text">Joint Head of Technical Projects — IEEE CS MUJ (2nd Year)</div></div>
+      <div class="ach-item"><span class="ach-icon">📡</span><div class="ach-text">Joint Head of Technical Projects — IEEE CS MUJ</div></div>
       <div class="ach-item"><span class="ach-icon">🥉</span><div class="ach-text">Bronze Medal — Queen's Royal Commonwealth Essay 2018, Senior Category</div></div>
-      <div class="ach-item"><span class="ach-icon">✍️</span><div class="ach-text">Poem "Angels Angelic" published on Times of India student portal</div></div>
+      <div class="ach-item"><span class="ach-icon">✍️</span><div class="ach-text">Poem "Angels Angelic" published on the Times of India student portal</div></div>
     </div>
   </div>
 </div>
@@ -1206,8 +1235,8 @@
 <div id="contact">
   <div class="contact-inner">
     <div class="reveal">
-      <h2 class="contact-heading">Open to<br><em>research</em> &amp;<br>collaboration</h2>
-      <p class="contact-sub">Whether it's research collaboration, PhD opportunities, internships, or just a conversation about computer vision and generative AI — I'd love to hear from you.</p>
+      <h2 class="contact-heading">Let's build<br><em>interesting</em><br>things.</h2>
+      <p class="contact-sub">I'm always interested in conversations and collaborations around computer vision, generative models, diffusion, 3D perception, and robotics.</p>
       <a href="mailto:saranshsuri10@gmail.com" class="btn btn-gold">Send a message</a>
     </div>
     <div class="contact-links reveal">
@@ -1221,10 +1250,15 @@
         linkedin.com/in/saransh-suri-20094b1ba
         <span class="c-label">LinkedIn</span>
       </a>
-      <a href="https://github.com/CrMessiSuriJr" target="_blank" class="c-link">
-        <span class="c-icon">&#xe1d2;</span>
-        github.com/CrMessiSuriJr
+      <a href="https://github.com/saranshsuri" target="_blank" class="c-link">
+        <span class="c-icon">GH</span>
+        github.com/saranshsuri
         <span class="c-label">GitHub</span>
+      </a>
+      <a href="https://saranshsuri.github.io/saransh_suri/" target="_blank" class="c-link">
+        <span class="c-icon">↗</span>
+        saranshsuri.github.io/saransh_suri
+        <span class="c-label">Website</span>
       </a>
     </div>
   </div>
@@ -1232,7 +1266,7 @@
 
 <!-- FOOTER -->
 <footer>
-  <div class="footer-l">© 2025 Saransh Suri — All rights reserved</div>
+  <div class="footer-l">© 2026 Saransh Suri — All rights reserved</div>
   <div class="footer-r">Made with <span>♥</span></div>
 </footer>
 
