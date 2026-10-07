@@ -493,7 +493,7 @@
 
     .research-cards {
       display:grid;
-      grid-template-columns: repeat(3,1fr);
+      grid-template-columns: repeat(2,1fr);
       gap:1.2rem;
     }
     .r-card {
@@ -963,7 +963,8 @@
         <h3>Research Intern</h3>
         <ul>
           <li>Working with Prof. Abhinav Shrivastava's lab on computer vision and generative modeling research.</li>
-          <li>Studying diffusion and flow-matching models — how objectives, parameterizations, representations, and sampling trajectories affect quality, stability, and efficiency.</li>
+          <li>Studying diffusion models for image generation — how objectives, parameterizations, and sampling affect quality, stability, and efficiency.</li>
+          <li>Studying flow-matching models for image generation, including representations and sampling trajectories for generative quality and stability.</li>
           <li>Exploring 3D perception and robotics: point-cloud denoising, learned 3D representations, open-vocabulary scene understanding, and perception for embodied systems.</li>
         </ul>
       </div>
@@ -1025,29 +1026,26 @@
       <div class="sec-line"></div>
     </div>
 
-    <div class="research-featured reveal">
-      <span class="r-badge b-int">Current Research · UMD</span>
-      <h3>Generative Vision: Diffusion, Flow Matching &amp; Image Generation</h3>
-      <p>Working in Prof. Abhinav Shrivastava's lab on generative computer vision, with a focus on diffusion and flow-matching models. Studying how different objectives, parameterizations, representations, and sampling trajectories affect generative quality, stability, and efficiency.</p>
-      <div class="authors">University of Maryland, College Park · Abhinav Shrivastava Lab</div>
-      <div class="status-pill">Ongoing</div>
-    </div>
-
     <div class="research-cards">
       <div class="r-card reveal">
-        <span class="r-badge b-int">Current</span>
-        <h3>Diffusion &amp; Flow-Based Generation</h3>
-        <p>Exploring diffusion, flow matching, alternative state parameterizations, inference dynamics, and research-grade evaluation for high-quality image generation.</p>
+        <span class="r-badge b-int">Ongoing · UMD</span>
+        <h3>Diffusion Models</h3>
+        <p>Image generation with diffusion models in Prof. Abhinav Shrivastava's lab. Studying how training objectives, parameterizations, and sampling affect generative quality, stability, and efficiency.</p>
       </div>
       <div class="r-card reveal">
-        <span class="r-badge b-int">Current</span>
+        <span class="r-badge b-int">Ongoing · UMD</span>
+        <h3>Flow Matching</h3>
+        <p>Image generation with flow-matching models in Prof. Abhinav Shrivastava's lab. Studying representations and sampling trajectories, and how they affect generative quality, stability, and efficiency.</p>
+      </div>
+      <div class="r-card reveal">
+        <span class="r-badge b-int">Ongoing · UMD</span>
         <h3>3D Perception &amp; Robotics</h3>
         <p>Point-cloud denoising, learned 3D representations, and open-vocabulary scene understanding — combining geometric, semantic, and generative signals for embodied perception and robotics.</p>
       </div>
       <div class="r-card reveal">
-        <span class="r-badge b-pub">Research</span>
-        <h3>Robust Face Recognition</h3>
-        <p>Identity-preserving synthetic hard-sample generation and adversarial augmentation for difficult variations such as pose, occlusion, and image quality — using generative models to uncover and fix recognition weaknesses.</p>
+        <span class="r-badge b-pub">Under Submission · IIT Jodhpur</span>
+        <h3>Adaptive Adversarial Augmentation for Controllable Face Synthesis</h3>
+        <p>Identity-consistent hard samples guided by ArcFace, AdaFace, and ElasticFace, so recognition can be trained on difficult pose, occlusion, and quality variation without losing identity.</p>
       </div>
     </div>
   </div>
@@ -1065,33 +1063,6 @@
     </div>
 
     <div class="projects-grid">
-      <div class="proj-card reveal">
-        <span class="proj-icon">✦</span>
-        <h3>Diffusion &amp; Flow-Matching Research</h3>
-        <p>Research experiments on image generation with diffusion and flow-based models, studying objectives, sampling trajectories, diagnostics, and generative quality.</p>
-        <div class="proj-tags">
-          <span class="tag">PyTorch</span><span class="tag">Diffusion</span><span class="tag">Flow Matching</span>
-        </div>
-      </div>
-
-      <div class="proj-card reveal">
-        <span class="proj-icon">◈</span>
-        <h3>3D Point-Cloud Learning</h3>
-        <p>Denoising and open-vocabulary semantic understanding for indoor 3D scenes, combining transformer-based point-cloud representations with vision-language features.</p>
-        <div class="proj-tags">
-          <span class="tag">3D Vision</span><span class="tag">Point Clouds</span><span class="tag">Open Vocabulary</span>
-        </div>
-      </div>
-
-      <div class="proj-card reveal">
-        <span class="proj-icon">◎</span>
-        <h3>Adaptive Face Synthesis</h3>
-        <p>“Adaptive Adversarial Augmentation for Controllable Face Synthesis” — guiding generation with ArcFace, AdaFace, and ElasticFace feedback to produce identity-consistent hard samples.</p>
-        <div class="proj-tags">
-          <span class="tag">Face Recognition</span><span class="tag">Generative AI</span><span class="tag">Adversarial Training</span>
-        </div>
-      </div>
-
       <div class="proj-card reveal">
         <span class="proj-icon">🏆</span>
         <h3>Mask-Immune Face Recognition</h3>
@@ -1125,6 +1096,51 @@
         <p>Real-time drowsiness detection using OpenCV-based facial analysis for safety-critical applications.</p>
         <div class="proj-tags">
           <span class="tag">OpenCV</span><span class="tag">Real-time</span><span class="tag">Vision</span>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <span class="proj-icon">💧</span>
+        <h3>Smart Water Irrigation</h3>
+        <p>Irrigation system aimed at improving agricultural efficiency and crop yield.</p>
+        <div class="proj-tags">
+          <span class="tag">Agriculture</span>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <span class="proj-icon">☀</span>
+        <h3>Solar-Powered Smart City</h3>
+        <p>Model with smart dustbins, Li-Fi, and recycling processes.</p>
+        <div class="proj-tags">
+          <span class="tag">Li-Fi</span><span class="tag">Smart City</span>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <span class="proj-icon">🛒</span>
+        <h3>E-Commerce Website</h3>
+        <p>Full-stack web project covering front-end and back-end implementation.</p>
+        <div class="proj-tags">
+          <span class="tag">Web</span><span class="tag">Full-stack</span>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <span class="proj-icon">🌐</span>
+        <h3>Bluebells School Website</h3>
+        <p>Contributor to the design and development of the official Bluebells School International website.</p>
+        <div class="proj-tags">
+          <span class="tag">Web</span><span class="tag">Design</span>
+        </div>
+      </div>
+
+      <div class="proj-card reveal">
+        <span class="proj-icon">⌚</span>
+        <h3>Smart Bag and Smart Watch</h3>
+        <p>Designed and built products with additional features.</p>
+        <div class="proj-tags">
+          <span class="tag">Product</span>
         </div>
       </div>
     </div>
