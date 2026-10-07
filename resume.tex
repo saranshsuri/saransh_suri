@@ -3,11 +3,20 @@
 % Include external settings
 \usepackage{settings}
 
+% Tighter margins and spacing (overrides settings defaults)
+\geometry{a4paper, margin=0.5in}
+\titlespacing*{\section}{0pt}{0.7em}{0.25em}
+\setlist[itemize]{itemsep=0.08em, parsep=0pt, topsep=0.15em, partopsep=0pt, leftmargin=1.2em}
+\setlength{\parskip}{0.2em}
+\setlength{\baselineskip}{12pt}
+\linespread{0.95}
+
 \begin{document}
 
 \begin{center}
     \textbf{\Huge Saransh Suri}
 \end{center}
+\vspace{-0.4em}
 
 \noindent
 \textbf{Email:} \href{mailto:saranshsuri10@gmail.com}{saranshsuri10@gmail.com} \hfill
@@ -26,7 +35,7 @@ I am a computer vision researcher who likes working across generative AI, 3D per
 CGPA: \textit{9.57/10.00} \\
 Dean's List Award (All 8 Semesters)
 
-\vspace{0.6em}
+\vspace{0.25em}
 \noindent
 \textbf{Bluebells School International, New Delhi} \hfill \textbf{2007--2022} \\
 CBSE Board Curriculum \\
@@ -37,47 +46,47 @@ Awarded ``Tech Wizard'' and ``Creative Innovator'' titles during annual function
 
 \noindent\textbf{Intern} \\
 \textit{Cyran AI} \hfill \textbf{Sep 2026 -- Present}
-\begin{itemize}[left=1em, label=--]
+\begin{itemize}[label=--]
     \item Building applied AI solutions and working on modern machine-learning systems in an industry setting.
 \end{itemize}
 
-\vspace{0.3em}
+\vspace{0.15em}
 \noindent\textbf{Research Intern} \\
 \textit{University of Maryland, College Park} \hfill \textbf{Jan 2026 -- Present} \\
 \textit{Abhinav Shrivastava Lab}
-\begin{itemize}[left=1em, label=--]
+\begin{itemize}[label=--]
     \item Studying diffusion and flow-matching models, including how objectives, parameterizations, representations, and sampling trajectories affect generative quality, stability, and efficiency.
     \item Working on 3D perception and robotics: point-cloud denoising, learned 3D representations, open-vocabulary scene understanding, and perception for embodied systems.
 \end{itemize}
 
-\vspace{0.3em}
+\vspace{0.15em}
 \noindent\textbf{Undergraduate Intern} \\
 \textit{Dell Technologies, Bengaluru} \hfill \textbf{Jun 2025 -- Dec 2025}
-\begin{itemize}[left=1em, label=--]
+\begin{itemize}[label=--]
     \item Developed and deployed a production Text-to-SQL agent used by dozens of Accounts Receivable managers globally to query collector performance and payment status in natural language.
     \item Built a multi-stage pipeline (table classification, column retrieval, rule selection, SQL generation, and correction); benchmarked LSTM, Bi-LSTM, RoBERTa, and ALBERT (ALBERT-base strongest), with schema encoders and retrieval informed by CHASE and CHESS.
 \end{itemize}
 
-\vspace{0.3em}
+\vspace{0.15em}
 \noindent\textbf{Trainee} \\
 \textit{Amazon ML Summer School} \hfill \textbf{Aug 2025 -- Sep 2025}
-\begin{itemize}[left=1em, label=--]
+\begin{itemize}[label=--]
     \item Selected as one of 3,000 trainees from a pool of approximately 150,000 applicants.
     \item Studied Reinforcement Learning, Generative AI, large language models, sequential learning, and causal inference.
 \end{itemize}
 
-\vspace{0.3em}
+\vspace{0.15em}
 \noindent\textbf{Research Intern} \\
 \textit{Image Analysis and Biometrics Lab, IIT Jodhpur} \hfill \textbf{May 2024 -- Jul 2024} \\
 \textit{Mentors: Dr.\ Mayank Vatsa, Dr.\ Richa Singh, and Dr.\ Shivang Agarwal}
-\begin{itemize}[left=1em, label=--]
+\begin{itemize}[label=--]
     \item Worked on ``Adaptive Adversarial Augmentation for Controllable Face Synthesis,'' using GANs and diffusion models to augment face-recognition training data with identity-consistent hard samples.
     \item Guided generation with feedback from an ensemble of recognition models, including ArcFace, AdaFace, and ElasticFace, so synthetic images remained identity-preserving while stressing failure cases such as pose and occlusion.
 \end{itemize}
 
 \section*{Projects}
 
-\begin{itemize}[left=0em, label=--]
+\begin{itemize}[label=--]
     \item \textbf{Mask-Immune Facial Recognition:} Recognition system robust under heavy facial occlusion from masks. Winner, Microsoft AI for Good Challenge India (Microsoft Edu Day).
     \item \textbf{Adaptive Face Synthesis:} Identity-preserving hard-sample generation for face recognition, using generative models and recognition-model feedback (ArcFace, AdaFace, ElasticFace) to improve robustness.
     \item \textbf{Agentic Text-to-SQL:} Multi-stage pipeline for schema grounding, SQL generation, verification, and iterative correction over complex enterprise databases.
@@ -92,7 +101,7 @@ Awarded ``Tech Wizard'' and ``Creative Innovator'' titles during annual function
 
 \section*{Leadership and Volunteer Work}
 
-\begin{itemize}[left=0em, label=--]
+\begin{itemize}[label=--]
     \item Joint Head of Technical Projects, IEEE CS, Manipal University Jaipur.
     \item President, ENIAC Tech Club (Grades 11--12); Robotics Head (Grade 10), Bluebells School International.
     \item 100 volunteer hours, Concern India Foundation (2021).
@@ -100,7 +109,7 @@ Awarded ``Tech Wizard'' and ``Creative Innovator'' titles during annual function
 
 \section*{Awards and Honors}
 
-\begin{itemize}[left=0em, label=--]
+\begin{itemize}[label=--]
     \item Winner, Microsoft AI for Good Challenge India (Microsoft Edu Day)
     \item Winner, Teccon 2021 -- AI Challenge (NorthCap University, Gurugram)
     \item Top 15 Schools, Innovation Fair Model Making (National Science Centre, New Delhi)
