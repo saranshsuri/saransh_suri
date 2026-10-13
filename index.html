@@ -520,6 +520,16 @@
       color:var(--muted);
       line-height:1.65;
     }
+    .r-links {
+      display:flex;
+      gap:1rem;
+      margin-top:1rem;
+      font-family:var(--mono);
+      font-size:0.68rem;
+      letter-spacing:0.04em;
+    }
+    .r-links a { color:var(--gold); text-decoration:none; }
+    .r-links a:hover { text-decoration:underline; }
 
     /* ── PROJECTS ── */
     #projects { background:var(--bg); }
@@ -800,24 +810,14 @@
 
     /* ── FOOTER ── */
     footer {
-      padding:2rem 4rem;
+      padding:1.5rem 4rem;
       border-top:1px solid var(--border);
-      display:flex;
-      justify-content:space-between;
-      align-items:center;
-    }
-    .footer-l {
+      text-align:center;
       font-family:var(--mono);
       font-size:0.65rem;
       color:var(--muted);
       letter-spacing:0.06em;
     }
-    .footer-r {
-      font-family:var(--mono);
-      font-size:0.65rem;
-      color:var(--muted);
-    }
-    .footer-r span { color:var(--gold); }
 
     /* ── ANIMATIONS ── */
     @keyframes fadeUp {
@@ -909,6 +909,7 @@
       <a href="mailto:saranshsuri10@gmail.com" class="btn btn-gold">Get in touch</a>
       <a href="https://github.com/saranshsuri" target="_blank" class="btn btn-outline">GitHub →</a>
       <a href="https://www.linkedin.com/in/saransh-suri-20094b1ba" target="_blank" class="btn btn-outline">LinkedIn →</a>
+      <a href="https://scholar.google.com/citations?user=nHzUFvQAAAAJ&amp;hl=en" target="_blank" class="btn btn-outline">Scholar →</a>
     </div>
   </div>
 
@@ -1043,9 +1044,12 @@
         <p>Point-cloud denoising, learned 3D representations, and open-vocabulary scene understanding — combining geometric, semantic, and generative signals for embodied perception and robotics.</p>
       </div>
       <div class="r-card reveal">
-        <span class="r-badge b-pub">Under Submission · IIT Jodhpur</span>
+        <span class="r-badge b-pub">Under Review · IIT Jodhpur</span>
         <h3>Adaptive Adversarial Augmentation for Controllable Face Synthesis</h3>
-        <p>Identity-consistent hard samples guided by ArcFace, AdaFace, and ElasticFace, so recognition can be trained on difficult pose, occlusion, and quality variation without losing identity.</p>
+        <p>Ensemble Feedback Controllable Synthesis (EFCS): identity-consistent hard samples guided by multiple face-recognition models, including ArcFace, AdaFace, and ElasticFace, for pose, occlusion, and quality variation. With Shivang Agarwal, Mayank Vatsa, and Richa Singh.</p>
+        <div class="r-links">
+          <a href="https://arxiv.org/abs/2610.11356" target="_blank">arXiv</a>
+        </div>
       </div>
     </div>
   </div>
@@ -1280,15 +1284,17 @@
         github.com/saranshsuri
         <span class="c-label">GitHub</span>
       </a>
+      <a href="https://scholar.google.com/citations?user=nHzUFvQAAAAJ&amp;hl=en" target="_blank" class="c-link">
+        <span class="c-icon">GS</span>
+        scholar.google.com/citations?user=nHzUFvQAAAAJ
+        <span class="c-label">Google Scholar</span>
+      </a>
     </div>
   </div>
 </div>
 
 <!-- FOOTER -->
-<footer>
-  <div class="footer-l">© 2026 Saransh Suri — All rights reserved</div>
-  <div class="footer-r">Made with <span>♥</span></div>
-</footer>
+<footer>Saransh Suri</footer>
 
 <script>
   // Custom cursor
